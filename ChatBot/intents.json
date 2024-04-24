@@ -1,0 +1,71 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+        "responses": ["Hello", "Good to see you again", "Hi there, how can I help you with your recycling today?"],
+        "context": [""]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+        "responses": ["See you!", "Have a nice day", "Bye! Keep recycling with GreenBox!"],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["My pleasure", "You're welcome! Remember, every bottle counts!"],
+        "context": [""]
+      },
+      {
+        "tag": "query_simplilearn",
+        "patterns": ["What is Simplilearn?"],
+        "responses": ["Simplilearn is a popular online Bootcamp and learning platform offering various courses."],
+        "context": [""]
+      },
+      {
+        "tag": "query_greenbox",
+        "patterns": ["What is GreenBox?", "Tell me about GreenBox", "What does GreenBox do?", "How does GreenBox work?"],
+        "responses": ["GreenBox is a smart recycling solution that rewards users for recycling plastic bottles using Web3 technology. Users earn tokens for each recycled bottle, which can be traded or redeemed for rewards."],
+        "context": [""]
+      },
+      {
+        "tag": "problem",
+        "patterns": ["What problem does GreenBox solve?", "Why do we need GreenBox?", "What issue is GreenBox addressing?"],
+        "responses": ["GreenBox addresses the problem of plastic waste by providing a convenient and incentivized recycling solution. It helps increase recycling rates through a user-friendly app and smart recycling units, reducing pollution in oceans and landfills."],
+        "context": [""]
+      },
+      {
+        "tag": "revenue",
+        "patterns": ["How does GreenBox make money?", "What is GreenBox's business model?", "How does GreenBox generate revenue?"],
+        "responses": ["GreenBox generates revenue through token transaction fees, advertising, data sales, partnerships, premium app services, and sharing profits from recycled materials."],
+        "context": [""]
+      },
+      {
+        "tag": "solution",
+        "patterns": ["How does GreenBox solve the recycling problem?", "What is GreenBox's solution?", "How does GreenBox work?"],
+        "responses": ["GreenBox offers a smart recycling solution with smart recycling units, QR code integration, Web3 technology for token rewards, a user-friendly app, and data analytics to optimize recycling efforts."],
+        "context": [""]
+      },
+      {
+        "tag": "competitors",
+        "patterns": ["Who are GreenBox's competitors?", "What are the alternatives to GreenBox?", "Who does GreenBox compete with?"],
+        "responses": ["GreenBox's direct competitors include Reverse Vending Machines (RVMs) and recycling apps. Indirect competitors include municipal recycling programs and environmental NGOs."],
+        "context": [""]
+      },
+      {
+        "tag": "differentiation",
+        "patterns": ["What makes GreenBox unique?", "Why choose GreenBox?", "How is GreenBox different from other recycling solutions?"],
+        "responses": ["GreenBox stands out with its Web3 integration, real-time tracking, comprehensive platform combining physical units with a digital app, data-driven approach, and monetary incentives for recycling."],
+        "context": [""]
+      },
+      {
+        "tag": "go_to_market",
+        "patterns": ["What is GreenBox's go-to-market strategy?", "How is GreenBox launching?", "What are GreenBox's market phases?"],
+        "responses": ["GreenBox's go-to-market strategy includes community building and recycling partner acquisition, a pilot program in high-footfall areas, expansion to new locations and app launch, and scaling up with recycling and corporate partnerships."],
+        "context": [""]
+      }
+    ]
+  }
+  
